@@ -14,7 +14,8 @@ redirect_from: "/examples/"
         <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/examples/{{ example.name | slugify }}/">
           <img class="img-thumbnail mb-3" srcset="{{ site.baseurl }}/docs/{{ site.docs_version }}/assets/img/examples/{{ example.name | slugify }}.png,
                                                   {{ site.baseurl }}/docs/{{ site.docs_version }}/assets/img/examples/{{ example.name | slugify }}@2x.png 2x"
-                                          src="{{ site.baseurl }}/docs/{{ site.docs_version }}/assets/img/examples/{{ example.name | slugify }}.png" alt="{{ example.name }} screenshot" width="480" height="300">
+                                          src="{{ site.baseurl }}/docs/{{ site.docs_version }}/assets/img/examples/{{ example.name | slugify }}.png"
+                                          alt="{{ example.name }} screenshot" width="480" height="300">
           <h5 class="mb-1">{{ example.name }}</h5>
         </a>
         <p class="text-muted">{{ example.description }}</p>
@@ -37,5 +38,7 @@ redirect_from: "/examples/"
     <a href="{{ site.themes }}" class="btn btn-lg btn-outline-primary mb-3">Browse themes</a>
   </div>
   <img class="d-block img-fluid mt-3 mx-auto" srcset="{{ site.baseurl }}/docs/{{ site.docs_version }}/assets/img/bootstrap-themes-collage.png,
-                                              {{ site.baseurl }}/docs/{{ site.docs_version }}/assets/img/bootstrap-themes-collage@2x.png 2x" src="{{ site.baseurl }}/docs/{{ site.docs_version }}/assets/img/bootstrap-themes-collage.png" alt="Bootstrap Themes" width="1151" height="320">
+                                              {{ site.baseurl }}/docs/{{ site.docs_version }}/assets/img/bootstrap-themes-collage@2x.png 2x"
+                                              src="{{ site.baseurl }}/docs/{{ site.docs_version }}/assets/img/bootstrap-themes-collage.png"
+                                              alt="Bootstrap Themes" width="1151" height="320">
 </div>
